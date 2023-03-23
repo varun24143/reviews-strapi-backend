@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest # what should it ideally do in this workflow and it runs on what kind of environment. Basically the runner environment
     steps:
       - name: Print Greeting
-        run: echo "Printing the consoled message: Greeting" # This is the command that will be executed for the Print Greeting step
+        run: echo "Printing the consoled message Greeting" # This is the command that will be executed for the Print Greeting step
       - name: Print GoodBye
         run: echo "Printing Goodbye!" # This is the command to run a second step named as Print Goodbye, both the steps are part of "first-job" job
     
