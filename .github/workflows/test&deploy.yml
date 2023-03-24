@@ -14,7 +14,7 @@ jobs:
         run: npm ci
 
   deploy:
-    nneds: test
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
