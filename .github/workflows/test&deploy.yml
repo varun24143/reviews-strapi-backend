@@ -1,7 +1,7 @@
 name: Test + Deploy Project
 on: 
   pull_request:
-    types: opened
+    types: [opened, edited]
   workflow_dispatch:
 jobs:
   test:
